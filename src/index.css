@@ -1,0 +1,57 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Toast customization */
+.Toastify__toast {
+  @apply rounded-lg shadow-elevation;
+  font-family: 'Inter', sans-serif;
+}
+
+.Toastify__toast--success {
+  @apply bg-white border-l-4 border-green-500;
+}
+
+.Toastify__toast--error {
+  @apply bg-white border-l-4 border-red-500;
+}
+
+.Toastify__toast--info {
+  @apply bg-white border-l-4 border-blue-500;
+}
+
+.Toastify__toast--warning {
+  @apply bg-white border-l-4 border-amber-500;
+}
+
+.Toastify__toast-body {
+  @apply text-gray-800 text-sm font-medium;
+}
+
+.Toastify__progress-bar {
+  @apply bg-gradient-to-r from-primary-500 to-secondary-500;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Smooth focus transitions */
+* {
+  @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 transition-all duration-200;
+}

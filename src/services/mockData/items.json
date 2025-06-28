@@ -1,0 +1,138 @@
+[
+  {
+    "Id": 1,
+    "name": "Living Room Sofa",
+    "category": "furniture",
+    "photos": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop"
+    ],
+    "status": "stored",
+    "location": "Warehouse A - Section B3",
+    "storedDate": "2024-01-15",
+    "dimensions": {
+      "length": 84,
+      "width": 36,
+      "height": 32
+    },
+    "notes": "3-seater brown leather sofa in excellent condition. Some minor wear on armrests."
+  },
+  {
+    "Id": 2,
+    "name": "Winter Ski Equipment",
+    "category": "sports",
+    "photos": [
+      "https://images.unsplash.com/photo-1551524164-6cf2ac3de4b5?w=800&h=600&fit=crop"
+    ],
+    "status": "stored",
+    "location": "Climate Storage - Section C1",
+    "storedDate": "2024-02-20",
+    "dimensions": {
+      "length": 72,
+      "width": 12,
+      "height": 8
+    },
+    "notes": "Complete ski set including boots, poles, and helmet. Size 10 boots."
+  },
+  {
+    "Id": 3,
+    "name": "Vintage Record Collection",
+    "category": "electronics",
+    "photos": [
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571266028243-d220c1cd3e75?w=800&h=600&fit=crop"
+    ],
+    "status": "in-transit",
+    "location": "Climate Storage - Section A2",
+    "storedDate": "2024-01-10",
+    "dimensions": {
+      "length": 24,
+      "width": 18,
+      "height": 30
+    },
+    "notes": "Collection of 150+ vinyl records from the 70s-90s. Includes rare jazz and rock albums."
+  },
+  {
+    "Id": 4,
+    "name": "Summer Clothes Box",
+    "category": "clothing",
+    "photos": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop"
+    ],
+    "status": "stored",
+    "location": "Warehouse B - Section A1",
+    "storedDate": "2024-01-25",
+    "dimensions": {
+      "length": 24,
+      "width": 16,
+      "height": 12
+    },
+    "notes": "Seasonal summer clothing, swimwear, and light jackets. All items clean and folded."
+  },
+  {
+    "Id": 5,
+    "name": "Desktop Computer Setup",
+    "category": "electronics",
+    "photos": [
+      "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=800&h=600&fit=crop"
+    ],
+    "status": "scheduled",
+    "location": "Pending Pickup",
+    "storedDate": "2024-03-01",
+    "dimensions": {
+      "length": 20,
+      "width": 18,
+      "height": 16
+    },
+    "notes": "Gaming PC with monitor, keyboard, and mouse. Carefully packed with original boxes."
+  },
+  {
+    "Id": 6,
+    "name": "Important Documents",
+    "category": "documents",
+    "photos": [],
+    "status": "stored",
+    "location": "Secure Storage - Section S1",
+    "storedDate": "2024-02-01",
+    "dimensions": {
+      "length": 12,
+      "width": 9,
+      "height": 3
+    },
+    "notes": "Legal documents, contracts, and certificates in fireproof document box."
+  },
+  {
+    "Id": 7,
+    "name": "Dining Table Set",
+    "category": "furniture",
+    "photos": [
+      "https://images.unsplash.com/photo-1549497538-303791108f95?w=800&h=600&fit=crop"
+    ],
+    "status": "stored",
+    "location": "Warehouse A - Section C2",
+    "storedDate": "2024-01-30",
+    "dimensions": {
+      "length": 60,
+      "width": 36,
+      "height": 30
+    },
+    "notes": "Oak dining table with 4 matching chairs. Minor scratches on table surface."
+  },
+  {
+    "Id": 8,
+    "name": "Holiday Decorations",
+    "category": "seasonal",
+    "photos": [
+      "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&h=600&fit=crop"
+    ],
+    "status": "stored",
+    "location": "Warehouse B - Section D1",
+    "storedDate": "2024-01-05",
+    "dimensions": {
+      "length": 30,
+      "width": 20,
+      "height": 18
+    },
+    "notes": "Christmas and Halloween decorations including lights, ornaments, and artificial tree."
+  }
+]

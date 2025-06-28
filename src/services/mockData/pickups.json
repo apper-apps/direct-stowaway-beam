@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "scheduledDate": "2024-03-15",
+    "timeSlot": "9:00 AM - 12:00 PM",
+    "address": "123 Main St, New York, NY 10001",
+    "items": [1, 2],
+    "status": "scheduled",
+    "notes": "Ring doorbell, apartment 4B"
+  },
+  {
+    "Id": 2,
+    "scheduledDate": "2024-03-10",
+    "timeSlot": "3:00 PM - 6:00 PM",
+    "address": "456 Oak Avenue, Brooklyn, NY 11201",
+    "items": [3],
+    "status": "completed",
+    "notes": "Leave items with building concierge"
+  },
+  {
+    "Id": 3,
+    "scheduledDate": "2024-03-12",
+    "timeSlot": "12:00 PM - 3:00 PM",
+    "address": "789 Pine Street, Queens, NY 11375",
+    "items": [4, 5],
+    "status": "in-progress",
+    "notes": "Call 30 minutes before arrival"
+  },
+  {
+    "Id": 4,
+    "scheduledDate": "2024-03-20",
+    "timeSlot": "6:00 PM - 9:00 PM",
+    "address": "321 Elm Drive, Manhattan, NY 10002",
+    "items": [],
+    "status": "scheduled",
+    "notes": "Heavy items, bring additional help"
+  },
+  {
+    "Id": 5,
+    "scheduledDate": "2024-02-28",
+    "timeSlot": "9:00 AM - 12:00 PM",
+    "address": "654 Maple Court, Bronx, NY 10458",
+    "items": [6, 7],
+    "status": "completed",
+    "notes": "Fragile items, handle with care"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "name": "Small Storage",
+    "size": "small",
+    "monthlyPrice": 49,
+    "features": [
+      "45 cubic feet of storage",
+      "Free monthly pickup",
+      "Climate controlled",
+      "Photo inventory",
+      "24/7 access to items",
+      "Insurance included"
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "Medium Storage",
+    "size": "medium",
+    "monthlyPrice": 89,
+    "features": [
+      "90 cubic feet of storage",
+      "2 free pickups per month",
+      "Climate controlled",
+      "Photo inventory",
+      "24/7 access to items",
+      "Insurance included",
+      "Priority delivery",
+      "Free packing supplies"
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "Large Storage",
+    "size": "large",
+    "monthlyPrice": 149,
+    "features": [
+      "180 cubic feet of storage",
+      "Unlimited pickups",
+      "Climate controlled",
+      "Photo inventory",
+      "24/7 access to items",
+      "Premium insurance",
+      "Same-day delivery",
+      "Free packing supplies",
+      "White glove service",
+      "Dedicated account manager"
+    ]
+  }
+]
