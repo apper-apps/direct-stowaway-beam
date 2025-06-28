@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import ApperIcon from "@/components/ApperIcon";
 import Image from "@/components/Image";
@@ -19,17 +20,25 @@ const navItems = [
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const navigate = useNavigate()
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen)
   }
 
+  const handleLogoClick = () => {
+    navigate('/')
+  }
   return (
     <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-3">
-<div className="w-10 h-10 relative">
+<button 
+            onClick={handleLogoClick}
+            className="flex items-center space-x-3 hover:opacity-80 transition-opacity duration-200 cursor-pointer"
+            aria-label="Go to homepage"
+          >
+            <div className="w-10 h-10 relative">
               <Image 
                 src="/logo.png" 
                 alt="StowAway Logo" 
@@ -40,7 +49,7 @@ function Header() {
             <h1 className="text-xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
               StowAway
             </h1>
-          </div>
+          </button>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-1">
